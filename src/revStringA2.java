@@ -7,7 +7,6 @@ public class revStringA2 {
         // System.out.println(a.indexOf('j'));
         for (int i = a.length - 1; i >= 0; i--) {
             rev = rev + a[i];
-
         }
         System.out.println(rev);
     }
