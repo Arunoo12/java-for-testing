@@ -1,0 +1,32 @@
+class in java
+1- it is a collection of attributes and behaviour 
+2- behaviour is method here and variable is attributes
+3- a class is basically a ctaegory of objects it is like a blueprint to create multiple houses from it 
+4- a class is virtual entity which means it will not occupy space in memory
+5- Object is and instance of class 
+6- Object is created by using class 
+7- object is a physical entity which means it will occupy space in memory
+8- we can create multiple objects from a class but can do do it in vice versa way .
+
+// declaration class
+public class className{
+    // we can write variables here
+    // as well as some methods too
+}
+// declaration object
+public static void main(String[] args){
+    className varName=new className(); // this is how you create a object 
+
+}
+NOTE : 1- we can not create a method under a method in a class 
+2- void methodName() it means method will return nothing only prints something on console 
+3- String methodName() it means method will return string 
+3- int methodName() it means method will return int 
+4- to use variable in main object from your class use objName.varName=value;
+5- aswellas for method use objName.methodName();
+
+REAL LIFE SCENARIO : 
+1- in real life we do not use multiple main methods for every class file we use a single sperate main method 
+inwhich we handels all the objects of multiple classes in a project 
+2- if a main method and class is in diff folder then you can use import statement to handel its objects 
+STATEMENT: import packageName.className
