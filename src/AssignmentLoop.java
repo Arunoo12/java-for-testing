@@ -10,5 +10,9 @@ public class AssignmentLoop {
             input = input / 10; // this will remove last digit from input after operation
         }
         System.out.println("input is " + 12345 + " reversed input is " + rev);
+
+        // count no of digits in number input 423424 output 6
+        // count no of even and odd input 23456
+        // find sum of digits in no 1234
     }
 }
