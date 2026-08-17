@@ -1,0 +1,13 @@
+// polymorphism is basically a theory concept but we can achieve it by doing overloading in methods or constructor
+
+// polymorphism means one thing can have multiple forms
+// overloading it means multiple method can have same name 
+so , basically you can write several methods in a class with the same name but you have to differentitae them 
+by following several rule 
+
+// 4 Rules of overloading
+1- methods names should me same
+2- number of parameter should be different
+3- data type of parameter should be different
+4- order of parameter should different
+
