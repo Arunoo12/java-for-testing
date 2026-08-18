@@ -1,0 +1,30 @@
+// encapsulation 
+- wrapping up of data and methods in single units (class).
+but right now also we are writing the methods and data in single unit because 
+we are writing those inside a class but that doesn't called wrapping up
+
+- capsule means which contains a medicines means we cannot see the medicine its a hidden part 
+similarly in this we will create var and methods in a class that contains these but they are not visible to outside classes
+it is more like a security feature 
+
+we put every var and method in single vlass but we cannot directly access the var's 
+but only through methods we can access the variables 
+it is basically a securty feature in our code 
+
+ex- we reach to bank and ask for our details they will not give directly
+they ask for id and they chcek and then they give access of our data
+similarly when we create a obj thrugh this obj we canot directly 
+access vars we can only do it by the help of methods 
+(wrapping up of data and method in single units)
+
+-- to achieve this by default we have to make all the variables privaate access modifier
+they can be accessed only within the class by method
+for every var we create two methods one to assign var and other is to get value from variable
+-- (method which is used to assign value to a var is called SETTERS)
+-- (method which is used to read data from a var is called GETTERS)
+
+1- all variables should be private
+2- for all variable there should be two methods (set & get)
+3- variables can be operated only through methods
+
+note - it is basically a capsule which containes data and methods inside it as a single unit 
