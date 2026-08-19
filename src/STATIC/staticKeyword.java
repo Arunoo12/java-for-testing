@@ -15,11 +15,11 @@ public class staticKeyword {
     }
 
     // public static void main(String[] args) {
-    //     // this can acess static method and var without obj because its also static
-    //     System.out.println(a);
-    //     m1();
-    //     // non static method can access everything without any restrictions
-    //     staticKeyword s1 = new staticKeyword();
-    //     s1.m2();
+    // // this can acess static method and var without obj because its also static
+    // System.out.println(a);
+    // m1();
+    // // non static method can access everything without any restrictions
+    // staticKeyword s1 = new staticKeyword();
+    // s1.m2();
     // }
 }
