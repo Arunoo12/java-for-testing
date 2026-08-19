@@ -1,0 +1,36 @@
+// inheritance 
+- Aquiring all properties (variables and methods) from one class to another is called inheritance .
+// types of inheritance
+1- single
+2- multi level
+3- hierarchy
+4- multiple 
+
+// single inheritance
+- means one parent and one child
+
+// multi level inheritance
+- means one parent / one child / one grandchild/ grand grand child ......
+
+// hierarchy inheritance
+- means one parent can have child and child can also have child ...... so on continue
+
+// multiple inheritance
+- means multiple parents can have one child 
+
+MULTIPLE INHERITANCE IS NOT ALLOWED IN CLASSES
+
+- because when you use extends keyword it allows only one file to be inherited when you inherit two parents to one child 
+tehre are some methods which are of same name and work example built in methods and when you inherit
+the child confuses which one to inherit because of duplicacy so and confilct appears and ambiguity occurs so 
+because of that in class pattern it is not allowed but with INTERFACE we can achieve multiple inheritance 
+
+// Objective of inheritance
+- reusablity
+- avoid duplication
+
+// Keyword
+- extends
+
+// Note
+- one java file can only have one public class.
