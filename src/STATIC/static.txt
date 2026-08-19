@@ -1,0 +1,19 @@
+// static keyword
+1- we can apply static to both variable and method 
+eg. static var=1;
+static m1(){
+    //--
+}
+2- when you make a var static then a seprate  memory allocation is created for that var and that var
+will be common to all objects whic are created using that class
+3- the problems static overcomes :- 1- modification | 2- dublicacy
+4- Restrictions for static :- 
+a- a var is common to all obj  
+5- static methods can be directly access static variable directly without creating a obj 
+6- we can access these var and method because main is also a static method 
+7- non static methods can access everything without any Restrictions
+
+IN CASE:
+you want to access static var/method directly to a main class but the main file is different file so 
+you have to specify the classname before the var name
+eg. classname.varname / classname.methodname
