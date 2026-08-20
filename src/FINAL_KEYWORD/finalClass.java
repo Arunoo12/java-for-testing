@@ -21,7 +21,7 @@ public class finalClass {
         // class beacuse its the final one now
         // so if you want to inherit then do it in reverse form inherit another class to
         // one
-        one o=new one();
+        one o = new one();
         o.displayValue();
     }
 }

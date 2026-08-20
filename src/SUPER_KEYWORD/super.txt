@@ -1,0 +1,12 @@
+// super
+- super is a keyword in Java used inside a child class to refer to its immediate parent class.
+
+- When inheritance is used, the child class gets access to the parent's members. But sometimes the child and parent have members with the same name, or the child needs to explicitly call something from the parent.
+
+- That's where super is useful.
+
+- There are 3 main uses of super:
+
+1- super.variable → access parent's variable
+2- super.method() → call parent's method
+3- super() → call parent's constructor

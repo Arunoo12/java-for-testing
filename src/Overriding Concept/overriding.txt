@@ -19,8 +19,15 @@ class B extends A{
 }
 
 main(Strings[] args){
-B obj=new B();
-obj.m1();
-output :- child
+    B obj=new B();
+    obj.m1();
+    output :- child
 }
+
+Rules of overriding:-
+1- method name same
+2- return type same
+3- no. or parameters same
+4- order of parameters same 
+5- data type of parameters same 
 
