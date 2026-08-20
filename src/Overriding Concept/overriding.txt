@@ -1,0 +1,26 @@
+// method overriding
+(same defination diff execution)
+
+- when you create two classes one is parent and second is child and you extends parent to child to make child inherit
+the methods and variables you have but child also has the same method in it with the same name declearation and varibale 
+the only difference bte methods are the execution code that is what called method overriding .
+inshort - same method in both parent and child only inside code is diff and when you make obj of child
+child will run the method of its own not the one which is inherited 
+
+eg. class A{
+    void m1(){
+        System.out.println("parent");
+    }
+}
+class B extends A{
+    void m1(){
+        System.out.println("child");
+    }
+}
+
+main(Strings[] args){
+B obj=new B();
+obj.m1();
+output :- child
+}
+
