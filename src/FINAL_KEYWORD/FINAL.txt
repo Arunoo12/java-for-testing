@@ -1,0 +1,8 @@
+// final keyowrd
+- final is used to make any class.method.variable the final image of it
+- when you make a variable class or method a final version of it then you can not extend / inherit/ change the values of 
+that object 
+
+final varibale - you cannot chnage value of this variable now .
+final method - now you cannot override this mthod anywhere .
+final class - now you cannot extend this class to any class in program .
